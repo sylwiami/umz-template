@@ -1,0 +1,12 @@
+Dane przedstawiaja odczyty z sensorów w pomieszczeniu i informację czy w danym pomieszczeniu znajduje się osoba.
+Zbuduj model regresji logistycznej jednej lub wielu zmiennych (do wyboru), który będzie przewidwywał czy w pomieszczeniu jest osoba (1 w Occupancy),
+czy nie (0 w Occupancy)
+
+Jaki jest rozkład próby treningowej (ile procent z próbek to te, w której osoba się znajduje).
+Jaką dokładność będzie miał algorytm zero rule na zbiorze deweloperskim?
+Oblicz dokładność, czułość, swoistość (accuracy, specifity, sensivity) na danych treningowych oraz deweloperskich modelu.
+Stwórz macierz błędu dla danych treningowych i deweloperskich.
+Narysuj wykres regresji logistycznej jednej zmiennej dla dowolnej cechy dla danych deweloperskich.
+Wszystkie powyższe informacje zapisz w pliku notes i załącz wraz z wykresem do repozytorium.
+
+20 punktów
