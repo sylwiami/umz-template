@@ -34,4 +34,4 @@ print(reg.coef_)
 print(reg.intercept_)
 pd.DataFrame(y_test_predict).to_csv('out.tsv', sep='\t', index=False, header=False)
 
-#sns.regplot(y=report["price"], x=report["rooms"]); plt.show()
+sns.regplot(y=report["price"], x=report["year"]); plt.show()
