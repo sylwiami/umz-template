@@ -1,0 +1,46 @@
+lista najczęstszych słów dla ham:
+
+lista najczęstszych słów dla spam:
+
+zero rule:
+accuracy:
+sensivity:
+specifity
+precision:
+
+
+Bayes
+accuracy:
+sensivity:
+specifity
+precision:
+
+
+
+Bayes + stemmer lancester:
+accuracy:
+sensivity:
+specifity
+precision:
+
+
+Bayes + stemmer porter:
+accuracy:
+sensivity:
+specifity
+precision:
+
+Bayes + stemmer snowball:
+accuracy:
+sensivity:
+specifity
+precision:
+
+
+Bayes + laplac:
+alfa:
+beta:
+accuracy:
+sensivity:
+specifity
+precision:
