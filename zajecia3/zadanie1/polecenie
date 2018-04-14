@@ -1,0 +1,22 @@
+INSTRUKCJA
+odpalanie:
+python3 evaluate.py
+
+Aby zmienić klasyfikator należy w evaluate.py zmienić
+classifier.Bayes
+na przykład na classifier.zero_rule
+
+POLECENIE
+-obejrzyj ham i spam
+
+-zaimplementuj przy pomocy przykładu get_sensivity: get_specifity oraz get_precision w kodzie # 30 punktów
+
+-napisz listę pierwszych najbardziej popularnych 10 elementów dla spam i dla ham dla zwykłego bayesa  w pliku answers-template # 50 puntków
+
+-wypróbuj zero_rule, naiwny klasyfikator bayesowski,naiwny klasyfikator bayesowski +  stemmerem ( 3 różne stemmery), wygładzanie laplacem (różne parametry)
+dla każdego i uzupełnij wyniki w pliku answers-tempate # 70 punktów
+
+
+
+
+
