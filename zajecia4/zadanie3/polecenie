@@ -1,0 +1,12 @@
+-skonstruuj klasyfikator oparty na knn
+podpowiedź:
+
+podobnie wystarczy poszukać funkcji knn classifier
+(interfejs jest podobny)
+
+-przeprowadź eksperymenty (różne ilości sąsiadów) i umieść ich wyniki w answers-template 
+(eksperymenty nie muszą mieć super wyników)
+-pamiętaj aby umieścić kod w repo
+
+
+40 punktów

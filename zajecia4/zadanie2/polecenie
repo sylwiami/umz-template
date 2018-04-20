@@ -1,0 +1,18 @@
+skonstruuj klasyfikator las losowy
+podpowiedź:
+po prostu zamień linijki z poprzedniego zadania:
+
+from sklearn import tree
+clf = tree.DecisionTreeClassifier()
+
+na
+
+from sklearn.ensemble import RandomForestClassifier
+clf = RandomForestClassifier(max_depth=4)
+
+(tak samo spróbuj z nieograniczoną głębokością drzewa i ograniczeniem)
+-przeprowadź eksperymenty i umieść ich wyniki w answers-template pod YOUR OWN FOREST PARAMETERS
+(eksperymenty nie muszą mieć super wyników)
+-tak samo umieść kod w repo
+
+40 punktów
