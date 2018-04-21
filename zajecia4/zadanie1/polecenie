@@ -1,0 +1,8 @@
+-korzystając ze skryptu analyze.py wypenij answers-template
+-przeprowadź eksperymenty i umieść ich wyniki w answers-template pod YOUR OWN TREE PARAMETERS
+możesz np. wypróbować różne algorytmy budowy drzewa
+(eksperymenty nie muszą mieć super wyników)
+-wyrysuj własne drzewo (wynik eksperymentów), zatytułuj my-tree.pdf i wrzuć do repo
+-w repo zamieść kod z własnym drzewem
+
+punktów: 40
