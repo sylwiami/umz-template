@@ -1,3 +1,4 @@
+
 import nltk
 from nltk.stem import PorterStemmer
 from nltk.stem import LancasterStemmer
@@ -44,7 +45,7 @@ class Bayes(classifier):
         cls.all_words_list = list(set(cls.spam_words_dict.keys()) | set(
             cls.ham_words_dict.keys()))
         cls.set_all_words_probs()
-
+       
     @classmethod
     def predict(cls, data_set):
         preds = []
