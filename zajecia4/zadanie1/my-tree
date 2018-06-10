@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="Mg <= 2.48\ngini = 0.781\nsamples = 22\nvalue = [6, 7, 2, 2, 2, 3]\nclass = 2", fillcolor="#9de53910"] ;
+1 [label="Si <= 72.83\ngini = 0.653\nsamples = 7\nvalue = [0, 0, 0, 2, 2, 3]\nclass = 6", fillcolor="#e5399d33"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="K <= 0.38\ngini = 0.5\nsamples = 4\nvalue = [0, 0, 0, 2, 2, 0]\nclass = 4", fillcolor="#399de500"] ;
+1 -> 2 ;
+3 [label="gini = 0.0\nsamples = 2\nvalue = [0, 0, 0, 0, 2, 0]\nclass = 5", fillcolor="#8139e5ff"] ;
+2 -> 3 ;
+4 [label="gini = 0.0\nsamples = 2\nvalue = [0, 0, 0, 2, 0, 0]\nclass = 4", fillcolor="#399de5ff"] ;
+2 -> 4 ;
+5 [label="gini = 0.0\nsamples = 3\nvalue = [0, 0, 0, 0, 0, 3]\nclass = 6", fillcolor="#e5399dff"] ;
+1 -> 5 ;
+6 [label="Al <= 1.4\ngini = 0.604\nsamples = 15\nvalue = [6, 7, 2, 0, 0, 0]\nclass = 2", fillcolor="#9de5391c"] ;
+0 -> 6 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+7 [label="Mg <= 3.7\ngini = 0.531\nsamples = 8\nvalue = [5, 1, 2, 0, 0, 0]\nclass = 1", fillcolor="#e5813980"] ;
+6 -> 7 ;
+8 [label="gini = 0.0\nsamples = 5\nvalue = [5, 0, 0, 0, 0, 0]\nclass = 1", fillcolor="#e58139ff"] ;
+7 -> 8 ;
+9 [label="Ca <= 8.675\ngini = 0.444\nsamples = 3\nvalue = [0, 1, 2, 0, 0, 0]\nclass = 3", fillcolor="#39e5817f"] ;
+7 -> 9 ;
+10 [label="gini = 0.0\nsamples = 1\nvalue = [0, 1, 0, 0, 0, 0]\nclass = 2", fillcolor="#9de539ff"] ;
+9 -> 10 ;
+11 [label="gini = 0.0\nsamples = 2\nvalue = [0, 0, 2, 0, 0, 0]\nclass = 3", fillcolor="#39e581ff"] ;
+9 -> 11 ;
+12 [label="Ca <= 7.905\ngini = 0.245\nsamples = 7\nvalue = [1, 6, 0, 0, 0, 0]\nclass = 2", fillcolor="#9de539d4"] ;
+6 -> 12 ;
+13 [label="gini = 0.0\nsamples = 1\nvalue = [1, 0, 0, 0, 0, 0]\nclass = 1", fillcolor="#e58139ff"] ;
+12 -> 13 ;
+14 [label="gini = 0.0\nsamples = 6\nvalue = [0, 6, 0, 0, 0, 0]\nclass = 2", fillcolor="#9de539ff"] ;
+12 -> 14 ;
+}

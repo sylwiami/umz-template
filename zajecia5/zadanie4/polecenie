@@ -1,0 +1,18 @@
+Zbuduj model sieci neuronowej dla regresji.
+
+Tak samo użyj kerasa. Teraz zamiast KerasClassifier, trzeba będzie użyć KerasRegressor.
+Reszta wygląda podobnie
+
+Wspomóż się poradnikami z internetu.
+
+Znajdź parametry modelu, które dają najlepsze wyniki
+
+Zadanie nie jest łatwe, trzeba będzie zrobić wiele eksperymentów.
+
+Na pewno będzie potrzebne skalowanie danych (poszukaj scikit_learn scaler) oraz conajmniej jedna warstwa ukryta.
+Raczej potrzebne będzie wiele epok (50-100), optimizer adam.
+
+
+
+Za zadanie, które nie daje odpowiedniego wyniku przy test_my_score: 20 punktów
+Za zadanie, które daje odpowiedni wynik przy test_my_score: 60 punktów

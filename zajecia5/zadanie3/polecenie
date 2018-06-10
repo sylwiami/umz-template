@@ -1,0 +1,11 @@
+Dane przedstawiaja odczyty z sensorów w pomieszczeniu i informację czy w danym pomieszczeniu znajduje się osoba.
+Zbuduj model sieci neuronowej, który będzie przewidwywał czy w pomieszczeniu jest osoba (1 w Occupancy),
+czy nie (0 w Occupancy).
+Sieć powinna mieć conajmnej jedną warstwę ukrytą.
+
+
+Możesz skopiować plik evaluate.py z zadania 1
+
+poczytaj dokumentacje kerasa https://keras.io/ oraz przeszukaj internet i dobierz najlepsze parametry sieci, tak żeby uzystać acc conajmniej 0.95
+
+20 punktów
